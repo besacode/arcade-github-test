@@ -2,7 +2,8 @@
     "name": "arcade github test",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "controller": "*"
     },
     "files": [
         "main.blocks",
