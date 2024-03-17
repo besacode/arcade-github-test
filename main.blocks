@@ -1,1 +1,18 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="u(:hEie=dn4S07K;ANd}" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundimage" id="Z/!~udB+g@{lM%a^fC+D"><value name="img"><shadow type="background_image_picker" id="-+-_f^r6C8GMlwP}f!a_"><field name="img">assets.image`Initial splash screen`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image1"}}</data></shadow></value></block></statement></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="EE{-|?EJ^Ov-LlU.JIwX">mySprite</variable><variable type="KIND_SpriteKind" id="yfTVLk):%L0$kxy5G8*F">Player</variable><variable type="KIND_SpriteKind" id="Pm^u=v9-D]cG4{@[Gy;*">Projectile</variable><variable type="KIND_SpriteKind" id="aGILLPBn3*5?^cW:tyT0">Food</variable><variable type="KIND_SpriteKind" id="*%oAu+rZrZ?H]yC.(2t)">Enemy</variable></variables><block type="pxt-on-start" id="u(:hEie=dn4S07K;ANd}" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundimage" id="Z/!~udB+g@{lM%a^fC+D"><value name="img"><shadow type="background_image_picker" id="-+-_f^r6C8GMlwP}f!a_"><field name="img">assets.image`Initial splash screen`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image1"}}</data></shadow></value><next><block type="variables_set" id="Z5L|RcoH3k6UvGaZN^?x"><field name="VAR" id="EE{-|?EJ^Ov-LlU.JIwX">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="eYv^C1cn}K/C%2M-nSJq"><value name="img"><shadow type="screen_image_picker" id="4sP_l$6MUD(j~u|a@z@}"><field name="img">img`
+. . . . c c c b b b b b . . . . 
+. . c c b 4 4 4 4 4 4 b b b . . 
+. c c 4 4 4 4 4 5 4 4 4 4 b c . 
+. e 4 4 4 4 4 4 4 4 4 5 4 4 e . 
+e b 4 5 4 4 5 4 4 4 4 4 4 4 b c 
+e b 4 4 4 4 4 4 4 4 4 4 5 4 4 e 
+e b b 4 4 4 4 4 4 4 4 4 4 4 b e 
+. e b 4 4 4 4 4 5 4 4 4 4 b e . 
+8 7 e e b 4 4 4 4 4 4 b e e 6 8 
+8 7 2 e e e e e e e e e e 2 7 8 
+e 6 6 2 2 2 2 2 2 2 2 2 2 6 c e 
+e c 6 7 6 6 7 7 7 6 6 7 6 c c e 
+e b e 8 8 c c 8 8 c c c 8 e b e 
+e e b e c c e e e e e c e b e e 
+. e e b b 4 4 4 4 4 4 4 4 e e . 
+. . . c c c c c e e e e e . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"4sP_l$6MUD(j~u|a@z@}"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="~bIp5!^;lqf2:QPpMjST"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></statement></block></xml>
