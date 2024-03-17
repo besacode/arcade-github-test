@@ -1,3 +1,5 @@
+let sprite_y = 0
+let sprite_x = 0
 scene.setBackgroundImage(assets.image`Initial splash screen`)
 let mySprite = sprites.create(img`
     . . . . c c c b b b b b . . . . 
@@ -17,3 +19,9 @@ let mySprite = sprites.create(img`
     . e e b b 4 4 4 4 4 4 4 4 e e . 
     . . . c c c c c e e e e e . . . 
     `, SpriteKind.Player)
+game.onUpdateInterval(100, function () {
+    console.logValue("x", controller.acceleration(ControllerDimension.X))
+    sprite_x = (controller.acceleration(ControllerDimension.X) + 1024) / 2048 * scene.screenWidth()
+    sprite_y = (controller.acceleration(ControllerDimension.Y) + 1024) / 2048 * scene.screenHeight()
+    mySprite.setPosition(sprite_x, sprite_y)
+})
