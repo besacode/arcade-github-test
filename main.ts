@@ -20,7 +20,6 @@ let mySprite = sprites.create(img`
     . . . c c c c c e e e e e . . . 
     `, SpriteKind.Player)
 game.onUpdateInterval(100, function () {
-    console.logValue("x", controller.acceleration(ControllerDimension.X))
     sprite_x = (controller.acceleration(ControllerDimension.X) + 1024) / 2048 * scene.screenWidth()
     sprite_y = (controller.acceleration(ControllerDimension.Y) + 1024) / 2048 * scene.screenHeight()
     mySprite.setPosition(sprite_x, sprite_y)
